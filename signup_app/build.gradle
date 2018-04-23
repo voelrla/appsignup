@@ -24,6 +24,7 @@ dependencies {
 	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
 }
 
+apply plugin:'base'
 test {
 	useTestNG()
 }
