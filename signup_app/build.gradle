@@ -4,7 +4,7 @@ apply plugin: 'eclipse'
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 //compileJava.options.bootClasspath = "C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar"
-compileJava.options.bootClasspath = "C:/Program Files/Java/jdk1.8.0_111/jre/lib"
+compileJava.options.bootClasspath = "C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar"
 
 version = '1.0'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
