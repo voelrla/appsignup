@@ -32,6 +32,7 @@ public class Signup extends Setup {
 		clickid("new UiSelector().text(\"생년\")");
 		driver.findElement(By.name("2003")).click();
 
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		clickid("new UiSelector().text(\"월\")");
 		driver.findElement(By.name("5")).click();
 
